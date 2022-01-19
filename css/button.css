@@ -1,0 +1,25 @@
+.button {
+  background-color: #15a9cb;
+  box-shadow: 0 4px 25px rgba(21, 169, 203, 0.3);
+  border-radius: 50px;
+  line-height: 23px;
+  font-weight: 500;
+  color: var(--main-color);
+  transition: background-color .2s linear;
+}
+
+.button:hover,
+.button:focus{
+  background-color: var(--bg-hover);
+}
+
+.button:active {
+  background-color: #3691d2;
+}
+
+@media (max-width: 480px) {
+  .button {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
