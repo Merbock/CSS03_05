@@ -20,7 +20,7 @@
 }
 
 .header__top {
-  margin-bottom: 120px;
+  margin-bottom: 110px;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -34,7 +34,7 @@
 
 .header__title {
   margin-bottom: 35px;
-  font-size: 52px;
+  font-size: 44px;
   line-height: 61px;
   font-weight: 900;
   color: rgba(255, 255, 255, 0.86);
@@ -61,18 +61,18 @@
   }
 
   .header__top {
-    margin-bottom: 70px;
+    margin-bottom: 67px;
   }
 
   .header__title {
-    margin: 0 auto 27px;
+    margin: 0 auto 30px;
     max-width: 802px;
-    font-size: 40px;
+    font-size: 34px;
     line-height: 46px;
   }
 
   .header__text {
-    margin-bottom: 60px;
+    margin-bottom: 58px;
     max-width: 750px;
     font-size: 18px;
     line-height: 25px;
@@ -94,13 +94,18 @@
 @media (max-width: 480px) {
   .header {
     min-height: 441px;
-    padding: 16px 0 65px;
+    padding: 12px 0 65px;
     background-image: url("../img/office-mobile.jpg");
+  }
+
+  .header__title {
+    margin-bottom: 25px;
+    font-size: 17px;
   }
 
   .header__text {
     height: 77px;
-    margin-bottom: 54px;
+    margin-bottom: 57px;
     overflow: hidden;
   }
 
@@ -109,7 +114,7 @@
   }
 
   .header__top {
-    margin-bottom: 65px;
+    margin-bottom: 63px;
   }
 
   .header__btn {
